@@ -1,0 +1,19 @@
+.dropdown .dropdown-menu{
+    /* display: none; */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: .5rem;
+}
+.dropend .dropdown-menu {
+   
+    visibility: hidden;
+   
+}
+.dropend:hover .dropdown-menu{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}

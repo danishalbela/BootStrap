@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- css files -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>Document</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    
+<!-- navbar starts -->12dec
+
+<header class="header-wrapper">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png" alt="" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-burger hamburgericon "></i>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav menu-navbar-nav border ms-auto text-center justify-content-end  ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myprojects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link contactbtn" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<!-- navbar ends -->
+
+<!-- banner starts -->
+
+<section id="home" class="banner " >
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5 text-sm-start text-md-center ">
+      <h4>My PortFolio</h4>
+      <h1>Hello my Name is Johhny Depp and i am a <span id="autodel" class="text-danger fw-bolder"></span></h1>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- banner ends -->
+
+<!-- about starts -->
+
+<section id="about" class="about-section border mt-5">
+  <div class="container">
+    <div class="row justify-content-md-between align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <img src="./assets/images/about.jpg" alt="" class="img-fluid rounded-5">
+      </div>
+      <div class="col-lg-7 text-center text-lg-start border">
+
+<div class="my-4 my-lg-1">
+  <p>Lorem, ipsum.</p>
+  <h2>About Me</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere harum tempora debitis et esse error, illum similique pariatur deleniti?</p>
+</div>
+<!-- navs and tab -->
+<div class="p-3 m-3">
+
+  <ul class="nav nav-pills mb-3 navs-tabs-list" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-skills-tab" data-bs-toggle="pill" data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills" aria-selected="true">SKILLS</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-qualification-tab" data-bs-toggle="pill" data-bs-target="#pills-qualification" type="button" role="tab" aria-controls="pills-qualification" aria-selected="false">QUALIFICATION</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">EXPERIENCE</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-achievements-tab" data-bs-toggle="pill" data-bs-target="#pills-achievements" type="button" role="tab" aria-controls="pills-achievements" aria-selected="false">ACHIEVEMENTS</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="pills-tabContent">
+
+    <div class="tab-pane fade show active" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab" tabindex="0">
+<!--  -->
+<div class="single-progress">
+  <h6>Ui/UX</h6>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+  </div>
+</div>
+<!--  -->
+<div class="single-progress">
+  <h6>COMMUNICATION</h6>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+  </div>
+</div>
+<!--  -->
+<div class="single-progress">
+  <h6>CODING</h6>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+  </div>
+</div>
+<!--  -->
+<div class="single-progress">
+  <h6>FRONT-END</h6>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+  </div>
+</div>
+<!--  -->
+<div class="single-progress">
+  <h6>BACK-END</h6>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%"></div>
+  </div>
+</div>
+<!--  -->
+    </div>
+
+    <div class="tab-pane fade" id="pills-qualification" role="tabpanel" aria-labelledby="pills-qualification-tab" tabindex="0">
+      <div class="qualification-wrapper">
+        <div class="qualification-main">
+          <div class="qualification-one">
+            <h5>Masters In Business Administration </h5>
+            <h1>Dr Deendayal Upadhyay University</h1>
+            <p>Final Marks - 78.67%</p>
+          </div>
+          <!--  -->
+          <div class="qualification-one">
+            <h5>Masters In Business Administration </h5>
+            <h1>Dr Deendayal Upadhyay University</h1>
+            <p>Final Marks - 78.67%</p>
+          </div>
+          <!--  -->
+          <div class="qualification-one">
+            <h5>Masters In Business Administration </h5>
+            <h1>Dr Deendayal Upadhyay University</h1>
+            <p>Final Marks - 78.67%</p>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="pills-achievements" role="tabpanel" aria-labelledby="pills-achievements-tab" tabindex="0">...</div>
+  </div>
+
+</div>
+<!-- navs and tabs -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- about ends -->
+
+<!-- my projects starts -->
+
+<section id="myprojects" class="myprojects-wrapper">
+  <h2>My-Projects</h2>
+<div class="row g-2 ">
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+  <div class="col-md-6 col-lg-4 p-4  project-one position-relative">
+    <button 
+    type="button" 
+    class="btn btn-info position-absolute " 
+    data-bs-container="body" 
+    data-bs-toggle="popover" 
+    data-bs-placement="top" 
+    data-bs-content="This Project was made using HTML CSS BootSTRAP and JS only">
+    Learn More...
+    </button>
+  </div>
+</div>
+</section>
+
+<!-- my projects ends -->
+
+<!-- testimonial starts-->
+
+<div id="testimonial" class="carousel slide carousel-dark" data-bs-ride="true">
+  <div class="carousel-inner carousal-wrapper container">
+    <div class="carousel-item active">
+    <div class="row g-4 gap-5">
+      <div class="col-sm-4 col-md-3 offset-1 carousal-one"></div>
+      <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+      <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+    </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="row g-4 gap-5">
+        <div class="col-sm-4 col-md-3 offset-1 carousal-one"></div>
+        <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+        <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+      </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="row g-4 gap-5">
+          <div class="col-sm-4 col-md-3 offset-1 carousal-one"></div>
+          <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+          <div class="col-sm-4 col-md-3 carousal-one d-none d-sm-inline-block"></div>
+        </div>
+        </div>
+ 
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonial" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonial" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- testimonial ends-->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="./script/autotypingeffect.js"></script>
+    <script src="./script/script.js"></script>
+
+
+  
+</script>
+
+</body>
+</html>

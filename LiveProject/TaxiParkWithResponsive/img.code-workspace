@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "../TexiPark/img"
+		},
+		{
+			"name": "images",
+			"path": "../TexiPark/images"
+		},
+		{
+			"name": "js",
+			"path": "../TexiPark/js"
+		},
+		{
+			"name": "TaxiParkWithResponsive",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
